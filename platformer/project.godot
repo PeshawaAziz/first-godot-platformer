@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="first-platformer-game"
-run/main_scene="res://Source/Actors/Player.tscn"
+run/main_scene="res://Source/Screens/MainScreen.tscn"
 config/icon="res://icon.png"
 
 [display]
