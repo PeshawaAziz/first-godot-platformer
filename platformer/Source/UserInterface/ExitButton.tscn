@@ -1,11 +1,14 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Source/UserInterface/ExitButton.gd" type="Script" id=1]
 
 [node name="ExitButton" type="Button"]
-margin_top = 62.0
 margin_right = 167.0
-margin_bottom = 120.0
+margin_bottom = 58.0
 size_flags_vertical = 3
 text = "EXIT"
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="button_up" from="." to="." method="_on_button_up"]

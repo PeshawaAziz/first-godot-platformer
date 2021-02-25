@@ -14,7 +14,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="background" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture = ExtResource( 4 )
@@ -26,9 +26,9 @@ __meta__ = {
 
 [node name="Title" parent="." instance=ExtResource( 2 )]
 margin_left = -151.0
-margin_top = 178.0
+margin_top = 191.0
 margin_right = 151.0
-margin_bottom = 238.0
+margin_bottom = 251.0
 text = "HeroSquare"
 
 [node name="Menu" type="VBoxContainer" parent="."]
@@ -36,14 +36,19 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -82.0
-margin_top = -58.0
-margin_right = 85.0
-margin_bottom = 62.0
+margin_left = -45.0
+margin_top = -60.0
+margin_right = 45.0
+margin_bottom = 60.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="PlayButton" parent="Menu" instance=ExtResource( 1 )]
+margin_right = 90.0
+next_scene_path = "res://Source/Levels/Level01.tscn"
 
 [node name="ExitButton" parent="Menu" instance=ExtResource( 3 )]
+margin_top = 62.0
+margin_right = 90.0
+margin_bottom = 120.0
